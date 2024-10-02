@@ -7,12 +7,15 @@
     background-color: bisque;
     max-width: 1080 px;
     margin: 0, auto;
+padding: 50px;
+
+
 }
 
 .navbar{ 
-    /* visibility: hidden; */
-    max-width: 1080 px;
-    margin: 0, auto;
+      /* visibility: hidden;   */
+    /* max-width: 1080 px;
+    margin: 0, auto; */
     /* background-color: rgb(218, 247, 247); */
     display: flex;
     justify-content: space-between;
@@ -38,7 +41,8 @@ li a{ text-decoration: none;}
 
 /* Banner-design */
 
-.banner{
+.banner{ 
+     /* visibility: hidden;   */
     max-width: 100%;
     text-align: center;
    
@@ -66,11 +70,108 @@ li a{ text-decoration: none;}
 .banner-section4 img{
     width: 100%;
 }
+/* Feature Section Design */
+.feature-section{
+    /* visibility: hidden;   */
+    display: flex;
+    padding: 50px;
+    
+}
+
+.feature-span{
+    color: darkorange;
+}
+
+.part1{
+    display: flex;
+    width: 50%;
+    gap: 5px;
+}
+
+.part1 img{
+    width: 100%;
+}
+
+.part{
+    position: relative;
+    width: 50%;
+   
+    /* padding: 30px; */
+    
+
+}
+.part2{
+ 
+    position: absolute;
+    top:40%;
+    left:10%
+    /* margin: auto; */
+     /* padding: 90px 0;  */
+    /* text-align: center; 
+    vertical-align: middle; */
+}
+
+/* experience design */
+.val-sign{
+    border-left: 5px solid rgb(252, 156, 0);
+    height: 60px;
+    margin-top: 20px;
+}
+.verticle { display: flex;
+            gap:15px;
+
+}
+.experience-container{
+
+    margin-top: 100px;
+display: flex;
+justify-content: space-between;
+padding: 30px;
+
+}
+.experience-description{
+    max-width: 50%;
+   
+
+}
+.experience-img{
+    max-width: 50%;
+   
+}
+.experience-img img{
+    width: 100%;
+    padding: 20px;
+}
+.details-experience p{
+font-size: 12px;
+}
+
+.details-experience{
+    /* border: 1px solid blue; */
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 3px rgb(219, 239, 253);
+    padding: 5px 10px;
+}
+/* 10 years */
+
+.experience{position: relative;}
+.ten-years{
+position: absolute;
+  left: 52%;
+  bottom: 5%;
+  border-radius: 5px;
+  
+    background-color: darkorange;
+    max-width: fit-content;
+    color:white;
+    padding: 10px;
+    
+}
 
 /* Responsive media quary */
 @media (max-width:576px){
     
-.navbar{
+.navbar, .feature-section {
     /* max-width: 1080 px; */
     margin: 0;
     background-color: rgb(218, 247, 247);
@@ -84,13 +185,80 @@ li a{ text-decoration: none;}
 
 ul> li{
 
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: -15px;
+    padding: 0px 15px;
+    
 padding: 0px;
+}
+.nav-2{
+margin-left: -24px;
 }
 
 .nav-1{display: flex;
     
     justify-content: center;
 }
+ .feature-section{
+    display: flex;
+    justify-content: center; text-align: center;
+    align-items: center;
+    padding: 10px 0px;
+
+    margin-bottom: 500px;
+    
+} 
+
+
+
+.part1{
+display: flex;
+    width: 100%;
+    gap: 5px;
+   
+   
 }
+.experience-container{
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+margin-top: 200px;
+
+
+}
+
+
+.experience{position: relative; max-width: 100%;}
+.ten-years{
+position: absolute;
+   left: 20%;
+  bottom: 0;
+  margin-bottom: -100px; 
+  
+  border-radius: 5px;
+  
+    background-color: darkorange;
+    max-width: fit-content;
+    color:white;
+    padding: 10px;
+    
+}
+
+.details-experience{
+    width: 100%;
+    /* border: 1px solid blue; */
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 3px rgb(219, 239, 253);
+    /* padding: 30px ,20px; */
+}
+.experience-img img{
+    width: 100%;
+    padding: 40px, 5px;
+    margin-left: -30px;
+}
+.details-experience p{
+    padding: 5px;
+    }
+
+}
+
