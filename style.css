@@ -168,6 +168,21 @@ position: absolute;
     
 }
 
+/* facts */
+.fact-number{
+    
+    border: 1px solid red; 
+    border-radius: 10px;
+
+   padding: 20px 50px;
+}
+.fact-details{
+
+     display: flex; 
+     justify-content: space-around; 
+    
+}
+
 /* Responsive media quary */
 @media (max-width:576px){
     
@@ -260,5 +275,14 @@ position: absolute;
     padding: 5px;
     }
 
+    .fact-details{
+
+    flex-direction: column;
+      
+       
+   }
+.facts{
+    margin-top: 200px;
+}
 }
 
