@@ -183,6 +183,31 @@ position: absolute;
     
 }
 
+/* sponsore */
+.sponsor-details{
+max-width: 100%;
+padding: 50px;
+text-align: center;
+}
+
+.detail-sponsor-img{
+    display: flex;
+  padding: 40px;
+    justify-content: center;
+}
+.detail-sponsor-img img{
+    width: 50%;
+}
+
+footer{
+    max-width: 100%;
+padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
 /* Responsive media quary */
 @media (max-width:576px){
     
@@ -284,5 +309,12 @@ position: absolute;
 .facts{
     margin-top: 200px;
 }
+
+.detail-sponsor-img{
+    flex-direction: column;
+  padding: 10px;
+   
+}
+
 }
 
